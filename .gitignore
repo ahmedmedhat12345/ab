@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+.env
+venv/
+.vscode/
+
+# Project Specific
+# We typically ignore data.csv if it's large, but for this demo users might want to upload it.
+# Uncomment the line below to ignore the dataset:
+# data.csv
+
+# Models (Optional: Commit them if you want the app to work out-of-the-box on Cloud without running the notebook first)
+# *.pkl
